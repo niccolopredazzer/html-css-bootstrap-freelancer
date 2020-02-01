@@ -56,5 +56,20 @@ header {
 
 .portfolio img {
     width: 100%;
-    margin-bottom: 40px;    
+    margin-bottom: 40px;
+}
+
+.ms--starblack {
+    font-size: 40px;
+}
+
+.ms--starblack::before,
+.ms--starblack::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    bottom: 22px;
 }
