@@ -30,6 +30,11 @@ header {
     border-color: #1abc9c;
 }
 
+.jumbotron {
+    background-color: #1abc9c;
+    color: white;
+}
+
 .jumbotron img {
     max-width: 250px;
 }
@@ -42,5 +47,9 @@ header {
     height: 2px;
     background-color: white;
     position: relative;
-    bottom: 20px;
+    bottom: 22px;
+}
+
+.ms--star span {
+    font-size: 40px;
 }
