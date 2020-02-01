@@ -29,3 +29,18 @@ header {
 .navbar-default .navbar-toggle {
     border-color: #1abc9c;
 }
+
+.jumbotron img {
+    max-width: 250px;
+}
+
+.ms--star::before,
+.ms--star::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+}
