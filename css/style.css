@@ -135,3 +135,43 @@ header {
     font-size: 48px;
     color: #2c3e50;
 }
+
+.contact button {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+}
+
+footer {
+    background-color: #2c3e50;
+}
+
+footer .col-xs-12 {
+    color: white;
+}
+
+footer i {
+    font-size: 30px;
+    padding: 10px;
+}
+
+footer .dark-cont {
+    height: 50px;
+    background-color: #1a252f;
+    color: white;
+}
+
+footer small {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #1abc9c;
+}
+
+footer a:hover {
+    color: #1abc9c;
+    cursor: pointer;
+}
